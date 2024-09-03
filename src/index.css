@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #28ABE2;
+  --sectiontitle: #dae4e9;
+  --maintitle: #bcd2dd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins, Arial, sans-serif";
+  color: var(--sectiontitle);
+}
+
